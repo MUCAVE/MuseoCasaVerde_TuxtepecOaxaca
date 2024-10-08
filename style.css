@@ -27,7 +27,7 @@ body {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0.0, 0.0, 0.0, 0.6), rgba(0, 0, 0, 0.6)), url('imagenes/MuCaBePrincipal.jpeg');
+    background-image: linear-gradient(rgba(0.0, 0.0, 0.0, 0.6), rgba(0, 0, 0, 0.6)), url('Imagenes/MuCaBePrincipal.jpeg');
     background-size: cover;
     background-position: center;
     color: #fff;
