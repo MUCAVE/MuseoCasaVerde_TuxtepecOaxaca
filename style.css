@@ -27,13 +27,19 @@ body {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Imagenes/MUCAVEFRENT.jpeg');
+    background-image: linear-gradient(rgba(0.0, 0.0, 0.0, 0.6), rgba(0, 0, 0, 0.6)), url('imagenes/MuCaBePrincipal.jpeg');
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 100px 0;
-    text-align: center;
+    border-radius: 20px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    max-width: 1300px; /* Ancho máximo del rectángulo */
+    margin: 10px auto 0 auto; /* Agrega un margen superior de 50px */
 }
+
+
+
 
 .hero-section h1 {
     font-family: 'Merriweather', serif;
@@ -175,4 +181,36 @@ body {
 
 .imagen:hover::after {
     background: rgba(0, 0, 0, 0.5);
+}
+/* Estilo para los enlaces de la barra de navegación */
+.navbar-nav .nav-item .nav-link {
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto hover para los enlaces */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #003300; /* Color de fondo al pasar el ratón */
+}
+
+/* Selector de idiomas */
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo del select para el idioma */
+.language-selector select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde del selector */
+    background-color: #fff; /* Fondo blanco */
+}
+
+/* Estilo para las imágenes dentro del selector de idioma */
+.language-selector img {
+    width: 20px; /* Ancho de la imagen */
+    height: 20px; /* Alto de la imagen */
+    margin-right: 5px; /* Espaciado entre la imagen y el texto */
 }
