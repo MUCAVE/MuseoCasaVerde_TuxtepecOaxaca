@@ -88,20 +88,28 @@
         <p class="text-center">Explora las diferentes secciones de MuCaVe y descubre la riqueza cultural de nuestra región.</p>
         <div class="img-container">
             <section class="galeria">
-                <div class="imagen">
+                <div class="imagen" onclick="openFullscreen(this)">
                     <img src="Imagenes/MuCaVe01Sep24.jpeg" alt="Imagen 1">
                 </div>
-                <div class="imagen">
+                <div class="imagen" onclick="openFullscreen(this)">
                     <img src="Imagenes/imagen2.jpg" alt="Imagen 2">
                 </div>
-                <div class="imagen">
+                <div class="imagen" onclick="openFullscreen(this)">
                     <img src="Imagenes/imagen3.jpg" alt="Imagen 3">
                 </div>
-                <div class="imagen">
+                <div class="imagen" onclick="openFullscreen(this)">
                     <img src="Imagenes/imagen4.jpg" alt="Imagen 4">
                 </div>
             </section>
-        </div>        
+        </div>
+        
+        <!-- Contenedor de pantalla completa -->
+        <div id="fullscreen" class="fullscreen" onclick="closeFullscreen()">
+            <span class="close">&times;</span>
+            <img id="fullscreenImg" src="" alt="Fullscreen Image">
+        </div>
+           
+        
         <div class="row mt-4">
             <div class="col-md-6">
                 <div class="card p-3 mb-4">
@@ -153,5 +161,7 @@
             window.location.href = window.location.pathname + '?lang=' + lang;
         }
     </script>
+    
+    <script src="script.js"></script> <!-- Tu archivo JavaScript -->
 </body>
 </html>
