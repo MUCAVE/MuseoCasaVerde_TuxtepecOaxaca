@@ -39,7 +39,7 @@
             <div class="language-selector ms-auto">
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="Imagenes/idiomaslogs/ESP.webp" width="20" height="20"> Español
+                        <img src="Imagenes/idiomaslogs/Idioms.jpg" width="20" height="20"> Español
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                         <li>
@@ -81,8 +81,27 @@
 
     <!-- Contenido principal -->
     <div class="container mt-5">
-        <h2>Horario: martes a domingo</h2>
-        <h3>De 10:00Am a 6:00PM</h3>
+        <div class="d-flex justify-content-end mb-4" style="align-items: flex-start;">
+            <div class="card p-3" style="width: 250px; background-color: #e8f5e9; border: 1px solid #004d00; border-radius: 10px; margin-right: 20px;">
+                <h2 class="subheader" style="color: #006600; text-align: center;">Horario</h2>
+                <h3 style="color: #333; text-align: center;">Martes a Domingo</h3>
+                <p style="font-size: 1.2rem; color: #333; text-align: center;">De 10:00 AM a 6:00 PM</p>
+            </div>
+    
+            <div class="card p-3 flex-fill" style="max-width: 800px; background-color: #e8f5e9; border: 1px solid #004d00; border-radius: 10px; margin-left: 20px;">
+                <h2 class="subheader" style="color: #006600; text-align: center;">Historia del Museo</h2>
+                <p style="color: #333; text-align: justify;">
+                    El Museo Regional Casa Verde de Tuxtepec se fundó con el objetivo de preservar y exhibir la rica cultura de la región. A través de sus salas, el museo presenta colecciones que abarcan desde la arqueología hasta el arte contemporáneo, destacando la diversidad cultural de Oaxaca.
+                </p>
+                <p style="color: #333; text-align: justify;">
+                    Desde su apertura, ha sido un espacio dedicado a la educación y la difusión cultural, donde los visitantes pueden apreciar el patrimonio histórico y artístico de la zona.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+       
+        
 
         <h2 class="text-center">Guía del Museo</h2>
         <p class="text-center">Explora las diferentes secciones de MuCaVe y descubre la riqueza cultural de nuestra región.</p>
@@ -112,7 +131,7 @@
         
         <div class="row mt-4">
             <div class="col-md-6">
-                <div class="card p-3 mb-4">
+                <a href="salas.html" class="card p-3 mb-4 text-decoration-none text-dark">
                     <h3 class="subheader">Planta Baja</h3>
                     <ul>
                         <li>Sala Arqueológica</li>
@@ -122,10 +141,10 @@
                         <li>Corredor de Arte Indígena, Mestizo y Afromexicano</li>
                         <li>Jardín Etnobotánico de Vainilla Chinanteca</li>
                     </ul>
-                </div>
+                </a>
             </div>
             <div class="col-md-6">
-                <div class="card p-3 mb-4">
+                <a href="salas.html" class="card p-3 mb-4 text-decoration-none text-dark">
                     <h3 class="subheader">Planta Alta</h3>
                     <ul>
                         <li>Sala Felipe Matías Velazco</li>
@@ -136,9 +155,10 @@
                         <li>Corredor del Arte Sotaventino</li>
                         <li>Centro de Documentación de Vainilla y Fototeca</li>
                     </ul>
-                </div>
+                </a>
             </div>
         </div>
+        
     </div>
 
     <!-- Pie de página -->
@@ -161,7 +181,7 @@
             window.location.href = window.location.pathname + '?lang=' + lang;
         }
     </script>
-    
+
     <script src="script.js"></script> <!-- Tu archivo JavaScript -->
 </body>
 </html>
