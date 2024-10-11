@@ -242,3 +242,14 @@ body {
     font-size: 40px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; /* Añadir espacio entre las tarjetas en pantallas pequeñas */
+    }
+    .subheader {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente en pantallas pequeñas */
+    }
+    .card p {
+        font-size: 1rem; /* Ajustar tamaño de los párrafos en pantallas pequeñas */
+    }
+}
