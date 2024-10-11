@@ -34,7 +34,7 @@ body {
     padding: 100px 0;
     border-radius: 20px; /* Borde redondeado */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    max-width: 1300px; /* Ancho máximo del rectángulo */
+    max-width: 1200px; /* Ancho máximo del rectángulo */
     margin: 10px auto 0 auto; /* Agrega un margen superior de 50px */
 }
 
